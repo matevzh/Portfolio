@@ -1,0 +1,5 @@
+blog/**/*.php
+blog/includes/
+blog/posts/
+blog/.htaccess
+blog/README.md

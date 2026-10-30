@@ -301,6 +301,61 @@ body {
     color: var(--faint);
 }
 
+.post-date {
+    margin-bottom: 0.45rem;
+}
+
+.post-body {
+    display: grid;
+    gap: 1rem;
+    margin-bottom: 1.75rem;
+    font-size: 1.02rem;
+    line-height: 1.65;
+    color: var(--text);
+}
+
+.post-body a {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 3px;
+    text-decoration-color: var(--link-underline);
+}
+
+.post-body a:hover {
+    text-decoration-style: solid;
+}
+
+.post-body code {
+    font-size: 0.92em;
+    padding: 0.1em 0.35em;
+    border-radius: 0.3rem;
+    background: var(--icon-bg);
+}
+
+.post-nav {
+    font-size: 0.95rem;
+}
+
+.post-nav a {
+    color: var(--muted);
+    text-decoration: none;
+}
+
+.post-nav a:hover {
+    color: var(--text);
+}
+
+.page-lead a {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 3px;
+    text-decoration-color: var(--link-underline);
+}
+
 .work-section + .work-section,
 .page-intro + .work-section {
     border-top: 1px solid var(--line);
